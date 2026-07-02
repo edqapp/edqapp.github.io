@@ -466,6 +466,14 @@ body {
     grid-template-columns: 1fr !important;
     gap: 30px;
   }
+  .feature-item {
+    align-items: center;
+    text-align: center;
+  }
+  .feature-icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .button-group {
     flex-wrap: nowrap !important;
     gap: 10px !important;
