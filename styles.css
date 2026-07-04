@@ -441,15 +441,6 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-.float-anim {
-  animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
-  100% { transform: translateY(0); }
-}
 
 /* Responsive */
 @media (max-width: 480px) {
